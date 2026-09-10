@@ -4,3 +4,5 @@ url: ""
 baseurl: ""
 markdown: kramdown
 permalink: pretty
+timezone: Europe/London
+future: false

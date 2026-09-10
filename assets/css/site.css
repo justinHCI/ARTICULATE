@@ -51,6 +51,30 @@ h2 { font-size: clamp(39px, 5vw, 65px); letter-spacing: -.04em; margin-bottom: 0
 .partners article:first-child { border-left: 0; padding-left: 0; }
 .partners h3 { font-size: 27px; margin: 45px 0 4px; }
 .partners p { color: #c5cec8; font-size: 14px; }
+.team-intro { align-items: end; border-top: 1px solid #63716a; display: flex; justify-content: space-between; margin-top: 92px; padding-top: 26px; }
+.team-intro .section-label { margin: 0; }
+.team-intro > p:last-child { font-family: Fraunces, serif; font-size: 25px; line-height: 1.25; margin: 0; max-width: 540px; }
+.team-grid { display: grid; gap: 1px; grid-template-columns: repeat(4, 1fr); margin-top: 36px; }
+.researcher-card { background: #26302c; min-width: 0; }
+.headshot { aspect-ratio: 1 / 1; overflow: hidden; }
+.headshot img { display: block; height: 100%; object-fit: cover; width: 100%; }
+.headshot-placeholder { align-items: center; background: #b7d6c2; color: var(--ink); display: flex; font-family: Fraunces, serif; font-size: 42px; justify-content: center; }
+.researcher-card:nth-child(3n + 2) .headshot-placeholder { background: var(--lime); }
+.researcher-card:nth-child(3n) .headshot-placeholder { background: #efb2a4; }
+.researcher-details { min-height: 208px; padding: 20px; }
+.researcher-institution { color: #c5cec8; font-family: "DM Mono", monospace; font-size: 10px; letter-spacing: .04em; margin-bottom: 34px; text-transform: uppercase; }
+.researcher-details h3 { font-size: 25px; margin-bottom: 11px; }
+.researcher-details p:last-child { color: #d9dfda; font-size: 13px; line-height: 1.5; margin-bottom: 0; }
+.publications { background: var(--paper); padding-bottom: 125px; padding-top: 125px; }
+.publication-list { border-top: 1px solid var(--line); margin-top: 80px; }
+.publication-item { align-items: start; border-bottom: 1px solid var(--line); display: grid; gap: 24px; grid-template-columns: 150px minmax(0, 1fr) 85px; padding: 25px 0 28px; }
+.publication-type, .publication-status { color: var(--muted); font-family: "DM Mono", monospace; font-size: 10px; letter-spacing: .06em; margin: 5px 0 0; text-transform: uppercase; }
+.publication-item h3 { font-size: 27px; margin-bottom: 8px; }
+.publication-item div p { color: var(--muted); font-size: 14px; margin: 0; }
+.publication-status { text-align: right; }
+.pdf-link { align-items: center; border-bottom: 1px solid var(--ink); display: flex; font-family: "DM Mono", monospace; font-size: 11px; gap: 7px; justify-content: space-between; padding-bottom: 3px; text-decoration: none; }
+.pdf-link:hover { color: var(--coral); }
+.pdf-link span { font-size: 16px; }
 .funding { background: #efede4; padding-bottom: 105px; padding-top: 105px; }
 .grant { color: var(--muted); margin-top: 30px; }
 .funder-logos { border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(4, 1fr); margin-top: 78px; padding-top: 40px; }
@@ -59,13 +83,14 @@ h2 { font-size: clamp(39px, 5vw, 65px); letter-spacing: -.04em; margin-bottom: 0
 .funder-logos img { max-height: 66px; max-width: 100%; }
 footer { align-items: center; background: var(--ink); color: var(--paper); display: flex; justify-content: space-between; padding-bottom: 23px; padding-top: 23px; }
 footer p { margin: 0; }
+.sr-only { clip: rect(0, 0, 0, 0); clip-path: inset(50%); height: 1px; overflow: hidden; position: absolute; white-space: nowrap; width: 1px; }
 @media (max-width: 720px) {
   .site-header { height: 64px; }
   nav { gap: 14px; }
   nav a { font-size: 10px; }
   .hero { min-height: 560px; padding-top: 86px; }
   .section-grid { gap: 34px; grid-template-columns: 1fr; }
-  .intro, .objectives, .approach, .consortium, .funding { padding-bottom: 72px; padding-top: 72px; }
+  .intro, .objectives, .approach, .consortium, .publications, .funding { padding-bottom: 72px; padding-top: 72px; }
   .dialogue { grid-template-columns: 1fr; }
   .exchange { display: none; }
   .learner { grid-column: auto; }
@@ -74,6 +99,17 @@ footer p { margin: 0; }
   .partners { margin-top: 47px; }
   .partners article, .partners article:first-child { border-left: 0; border-top: 1px solid #63716a; min-height: 145px; padding: 20px 10px 15px 0; }
   .partners h3 { font-size: 22px; margin: 26px 0 4px; }
+  .team-intro { align-items: start; flex-direction: column; gap: 23px; margin-top: 60px; }
+  .team-intro > p:last-child { font-size: 22px; }
+  .team-grid { grid-template-columns: 1fr 1fr; margin-top: 28px; }
+  .researcher-details { min-height: 190px; padding: 15px; }
+  .researcher-institution { margin-bottom: 25px; }
+  .researcher-details h3 { font-size: 21px; }
+  .publication-list { margin-top: 45px; }
+  .publication-item { gap: 13px; grid-template-columns: 1fr 78px; padding: 22px 0; }
+  .publication-type { grid-column: 1 / -1; margin: 0; }
+  .publication-item h3 { font-size: 23px; }
+  .publication-status { align-self: end; }
   .funder-logos { margin-top: 46px; padding-top: 20px; }
   .funder-logos a:nth-child(odd) { border-left: 0; }
   .funder-logos a { border-top: 1px solid var(--line); min-height: 80px; padding: 12px; }
