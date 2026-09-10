@@ -1,7 +1,7 @@
 title: ARTICULATE
 description: Science in your own language
 url: ""
-baseurl: ""
+baseurl: "/ARTICULATE"
 markdown: kramdown
 permalink: pretty
 timezone: Europe/London

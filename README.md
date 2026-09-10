@@ -17,6 +17,8 @@ Open `http://localhost:4000` in a browser.
 
 The `github-pages` gem in the `Gemfile` matches the GitHub Pages build environment. Push the repository to GitHub, then enable **Settings > Pages > Deploy from a branch** and select the branch containing this site.
 
+This repository is configured as a GitHub Pages project site at `/ARTICULATE/`. If the GitHub repository has a different name, change `baseurl` in `_config.yml` to match it exactly, including the leading slash. For a user or organisation site published at `username.github.io`, set `baseurl` to an empty string.
+
 ## Updating the team
 
 Add or edit entries in `_data/researchers.yml`. To include a headshot, place the image in `assets/images/team/`, then set `photo` to the relative path, for example:
