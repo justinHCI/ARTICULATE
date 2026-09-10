@@ -96,9 +96,21 @@ layout: null
           <p class="body-copy">How can AI help people encounter science in a voice and language that feels like their own?</p>
         </div>
         <div class="partners">
-          <article><span>01</span><h3>Heriot-Watt University</h3><p>Edinburgh, United Kingdom</p></article>
-          <article><span>02</span><h3>University College Dublin</h3><p>Dublin, Ireland</p></article>
-          <article><span>03</span><h3>University of Oulu</h3><p>Oulu, Finland</p></article>
+          <article>
+            <span>01</span>
+            <a class="partner-logo partner-logo-hw" href="https://www.hw.ac.uk/" aria-label="Heriot-Watt University"><img src="https://www.hw.ac.uk/image-library/hci-hwu-shield-blue2.x330befdd.jpg?w=1024&amp;h=379&amp;fit=crop&amp;q=75&amp;f=webp" alt="Heriot-Watt University shield"><b>Heriot-Watt<br>University</b></a>
+            <p>Edinburgh, United Kingdom</p>
+          </article>
+          <article>
+            <span>02</span>
+            <a class="partner-logo" href="https://www.ucd.ie/" aria-label="University College Dublin"><img src="https://www.ucd.ie/t4media/logo-footer.svg" alt="University College Dublin logo"></a>
+            <p>Dublin, Ireland</p>
+          </article>
+          <article>
+            <span>03</span>
+            <a class="partner-logo" href="https://www.oulu.fi/en" aria-label="University of Oulu"><img src="https://www.oulu.fi/themes/custom/nextgen/logo.svg" alt="University of Oulu logo"></a>
+            <p>Oulu, Finland</p>
+          </article>
         </div>
         <div class="team-intro">
           <p class="section-label">People</p>
@@ -117,7 +129,7 @@ layout: null
             </div>
             <div class="researcher-details">
               <p class="researcher-institution">{{ researcher.institution }}</p>
-              <h3>{{ researcher.name }}</h3>
+              <h3>{% if researcher.profile %}<a href="{{ researcher.profile }}">{{ researcher.name }}</a>{% else %}{{ researcher.name }}{% endif %}</h3>
               <p>{{ researcher.bio }}</p>
             </div>
           </article>

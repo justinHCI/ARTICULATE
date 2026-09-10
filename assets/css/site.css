@@ -49,8 +49,12 @@ h2 { font-size: clamp(39px, 5vw, 65px); letter-spacing: -.04em; margin-bottom: 0
 .partners { display: grid; gap: 0; grid-template-columns: repeat(3, 1fr); margin-top: 82px; }
 .partners article { border-left: 1px solid #63716a; min-height: 190px; padding: 0 28px; }
 .partners article:first-child { border-left: 0; padding-left: 0; }
-.partners h3 { font-size: 27px; margin: 45px 0 4px; }
 .partners p { color: #c5cec8; font-size: 14px; }
+.partner-logo { align-items: center; display: flex; height: 88px; margin: 24px 0 12px; max-width: 210px; }
+.partner-logo img { display: block; max-height: 72px; max-width: 100%; }
+.partner-logo-hw { gap: 10px; text-decoration: none; }
+.partner-logo-hw img { border-radius: 50%; height: 58px; object-fit: cover; object-position: left center; width: 58px; }
+.partner-logo-hw b { font-family: Fraunces, serif; font-size: 18px; font-weight: 500; line-height: 1.1; }
 .team-intro { align-items: end; border-top: 1px solid #63716a; display: flex; justify-content: space-between; margin-top: 92px; padding-top: 26px; }
 .team-intro .section-label { margin: 0; }
 .team-intro > p:last-child { font-family: Fraunces, serif; font-size: 25px; line-height: 1.25; margin: 0; max-width: 540px; }
@@ -64,6 +68,8 @@ h2 { font-size: clamp(39px, 5vw, 65px); letter-spacing: -.04em; margin-bottom: 0
 .researcher-details { min-height: 208px; padding: 20px; }
 .researcher-institution { color: #c5cec8; font-family: "DM Mono", monospace; font-size: 10px; letter-spacing: .04em; margin-bottom: 34px; text-transform: uppercase; }
 .researcher-details h3 { font-size: 25px; margin-bottom: 11px; }
+.researcher-details h3 a { text-decoration: none; }
+.researcher-details h3 a:hover { text-decoration: underline; text-decoration-color: var(--lime); text-underline-offset: 5px; }
 .researcher-details p:last-child { color: #d9dfda; font-size: 13px; line-height: 1.5; margin-bottom: 0; }
 .publications { background: var(--paper); padding-bottom: 125px; padding-top: 125px; }
 .publication-list { border-top: 1px solid var(--line); margin-top: 80px; }
@@ -98,7 +104,8 @@ footer p { margin: 0; }
   .partners, .funder-logos { grid-template-columns: 1fr 1fr; }
   .partners { margin-top: 47px; }
   .partners article, .partners article:first-child { border-left: 0; border-top: 1px solid #63716a; min-height: 145px; padding: 20px 10px 15px 0; }
-  .partners h3 { font-size: 22px; margin: 26px 0 4px; }
+  .partner-logo { height: 70px; margin: 14px 0 8px; }
+  .partner-logo img { max-height: 58px; }
   .team-intro { align-items: start; flex-direction: column; gap: 23px; margin-top: 60px; }
   .team-intro > p:last-child { font-size: 22px; }
   .team-grid { grid-template-columns: 1fr 1fr; margin-top: 28px; }
