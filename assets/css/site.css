@@ -53,7 +53,8 @@ h2 { font-size: clamp(39px, 5vw, 65px); letter-spacing: -.04em; margin-bottom: 0
 .partners h3 { font-size: 22px; margin: 0 0 4px; }
 .partner-logo { align-items: center; display: flex; height: 76px; justify-content: flex-start; margin: 24px 0 10px; width: 190px; }
 .partner-logo img { display: block; height: 64px; object-fit: contain; object-position: left center; width: 160px; }
-.partner-logo-hw img { height: 68px; object-fit: contain; width: 180px; }
+.partner-logo-hw { background: var(--paper); padding: 8px 10px; }
+.partner-logo-hw img { height: 58px; object-fit: contain; width: 170px; }
 .team-intro { align-items: end; border-top: 1px solid #63716a; display: flex; justify-content: space-between; margin-top: 92px; padding-top: 26px; }
 .team-intro .section-label { margin: 0; }
 .team-intro > p:last-child { font-family: Fraunces, serif; font-size: 25px; line-height: 1.25; margin: 0; max-width: 540px; }
@@ -90,7 +91,7 @@ h2 { font-size: clamp(39px, 5vw, 65px); letter-spacing: -.04em; margin-bottom: 0
 .funder-logos a:first-child { border-left: 0; }
 .funder-logos img { max-height: 66px; max-width: 100%; }
 .funder-logos .funder-logo-irc { padding-left: 10px; padding-right: 10px; }
-.funder-logo-irc img { max-height: 82px; width: 100%; }
+.funder-logo-irc img { height: auto; max-height: 58px; width: auto; }
 footer { align-items: center; background: var(--ink); color: var(--paper); display: flex; justify-content: space-between; padding-bottom: 23px; padding-top: 23px; }
 footer p { margin: 0; }
 .sr-only { clip: rect(0, 0, 0, 0); clip-path: inset(50%); height: 1px; overflow: hidden; position: absolute; white-space: nowrap; width: 1px; }
