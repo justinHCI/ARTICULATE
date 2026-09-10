@@ -1,6 +1,8 @@
-- type: Project publications
-  title: ARTICULATE research outputs
-  authors: Peer-reviewed publications and preprints will be added as the project progresses.
-  status: forthcoming
-  label: Coming soon
-  pdf: ""
+- type: Conference poster
+  title: "ARTICULATE: Science in your Own Language"
+  authors: Yolanda Vazquez-Alvarez, Matthew P. Aylett, Benjamin R. Cowan, Justin Edwards, Sanna Jarvela, Ioannis Konstas, and Madeleine Steeds.
+  pdf: /assets/pdfs/eamt_2026_Articulate.pdf
+- type: Project proposal
+  title: ARTICULATE project proposal
+  authors: ARTICULATE consortium.
+  pdf: "/assets/pdfs/Final Proposal_ARTICULATE 1.pdf"

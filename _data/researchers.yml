@@ -8,7 +8,7 @@
   initials: YV
   institution: Heriot-Watt University
   bio: Research Associate, School of Mathematical and Computer Sciences.
-  photo: ""
+  photo: https://www.dcs.gla.ac.uk/~yolanda/homepage_pics/CV_photo.JPG
   profile: https://researchportal.hw.ac.uk/en/persons/yolanda-vazquez-alvarez
 - name: Matthew P. Aylett
   initials: MA
@@ -26,8 +26,8 @@
   initials: EY
   institution: University College Dublin
   bio: Postdoctoral Researcher, University College Dublin.
-  photo: ""
-  profile: ""
+  photo: https://d-real.ie/wp-content/uploads/2025/05/Emily-Ip-scaled.jpg
+  profile: https://d-real.ie/student/emily-ip/
 - name: Madeleine Steeds
   initials: MS
   institution: University College Dublin
@@ -37,21 +37,21 @@
 - name: Justin Edwards
   initials: JE
   institution: University of Oulu
-  bio: Postdoctoral Researcher, Learning and Educational Technology Research Lab.
+  bio: Visiting Research Fellow, Learning and Educational Technology Research Lab.
   photo: https://media-cdn.oulu.fi/styles/main_image/s3/images/JustinEdwardsProfile.jpg?itok=gODuQUH4
   profile: https://www.oulu.fi/en/researchers/justin-edwards
 - name: Eero Niskanen
   initials: EN
   institution: University of Oulu
   bio: Project Researcher, University of Oulu.
-  photo: ""
-  profile: ""
+  photo: assets/images/eero.png
+  profile: https://www.oulu.fi/en/research-groups/let-lab-learning-and-educational-technology-research-lab
 - name: Sofia Kochetkova
   initials: SK
   institution: University of Oulu
   bio: Research Assistant, University of Oulu.
-  photo: ""
-  profile: ""
+  photo: assets/images/sofia.png
+  profile: https://www.oulu.fi/en/research-groups/let-lab-learning-and-educational-technology-research-lab
 - name: Sanna Jarvela
   initials: SJ
   institution: University of Oulu
