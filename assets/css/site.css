@@ -50,15 +50,18 @@ h2 { font-size: clamp(39px, 5vw, 65px); letter-spacing: -.04em; margin-bottom: 0
 .partners article { border-left: 1px solid #63716a; min-height: 190px; padding: 0 28px; }
 .partners article:first-child { border-left: 0; padding-left: 0; }
 .partners p { color: #c5cec8; font-size: 14px; }
-.partner-logo { align-items: center; display: flex; height: 88px; margin: 24px 0 12px; max-width: 210px; }
-.partner-logo img { display: block; max-height: 72px; max-width: 100%; }
+.partner-logo { align-items: center; display: flex; height: 88px; justify-content: flex-start; margin: 24px 0 12px; width: 190px; }
+.partner-logo img { display: block; height: 64px; object-fit: contain; object-position: left center; width: 160px; }
 .partner-logo-hw { gap: 10px; text-decoration: none; }
-.partner-logo-hw img { border-radius: 50%; height: 58px; object-fit: cover; object-position: left center; width: 58px; }
+.partner-logo-hw img { border-radius: 50%; height: 64px; object-fit: cover; object-position: left center; width: 64px; }
 .partner-logo-hw b { font-family: Fraunces, serif; font-size: 18px; font-weight: 500; line-height: 1.1; }
 .team-intro { align-items: end; border-top: 1px solid #63716a; display: flex; justify-content: space-between; margin-top: 92px; padding-top: 26px; }
 .team-intro .section-label { margin: 0; }
 .team-intro > p:last-child { font-family: Fraunces, serif; font-size: 25px; line-height: 1.25; margin: 0; max-width: 540px; }
-.team-grid { display: grid; gap: 1px; grid-template-columns: repeat(4, 1fr); margin-top: 36px; }
+.team-groups { margin-top: 36px; }
+.team-group + .team-group { margin-top: 54px; }
+.team-group > h3 { border-bottom: 1px solid #63716a; font-family: "DM Mono", monospace; font-size: 11px; font-weight: 500; letter-spacing: .06em; margin: 0; padding-bottom: 12px; text-transform: uppercase; }
+.team-grid { display: grid; gap: 1px; grid-template-columns: repeat(4, 1fr); margin-top: 14px; }
 .researcher-card { background: #26302c; min-width: 0; }
 .headshot { aspect-ratio: 1 / 1; overflow: hidden; }
 .headshot img { display: block; height: 100%; object-fit: cover; width: 100%; }
@@ -105,10 +108,12 @@ footer p { margin: 0; }
   .partners { margin-top: 47px; }
   .partners article, .partners article:first-child { border-left: 0; border-top: 1px solid #63716a; min-height: 145px; padding: 20px 10px 15px 0; }
   .partner-logo { height: 70px; margin: 14px 0 8px; }
-  .partner-logo img { max-height: 58px; }
+  .partner-logo img { height: 58px; width: 145px; }
   .team-intro { align-items: start; flex-direction: column; gap: 23px; margin-top: 60px; }
   .team-intro > p:last-child { font-size: 22px; }
-  .team-grid { grid-template-columns: 1fr 1fr; margin-top: 28px; }
+  .team-groups { margin-top: 28px; }
+  .team-group + .team-group { margin-top: 42px; }
+  .team-grid { grid-template-columns: 1fr 1fr; margin-top: 14px; }
   .researcher-details { min-height: 190px; padding: 15px; }
   .researcher-institution { margin-bottom: 25px; }
   .researcher-details h3 { font-size: 21px; }

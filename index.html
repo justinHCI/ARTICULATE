@@ -116,23 +116,31 @@ layout: null
           <p class="section-label">People</p>
           <p>Meet the researchers collaborating across language technology, learning sciences and human-centred AI.</p>
         </div>
-        <div class="team-grid">
-          {% for researcher in site.data.researchers %}
-          <article class="researcher-card">
-            <div class="headshot{% unless researcher.photo %} headshot-placeholder{% endunless %}">
-              {% if researcher.photo %}
-              <img src="{{ researcher.photo | relative_url }}" alt="Portrait of {{ researcher.name }}">
-              {% else %}
-              <span aria-hidden="true">{{ researcher.initials }}</span>
-              <span class="sr-only">Portrait forthcoming for {{ researcher.name }}</span>
-              {% endif %}
+        {% assign institution_groups = site.data.researchers | group_by: "institution" %}
+        <div class="team-groups">
+          {% for group in institution_groups %}
+          <section class="team-group" aria-labelledby="team-{{ forloop.index }}">
+            <h3 id="team-{{ forloop.index }}">{{ group.name }}</h3>
+            <div class="team-grid">
+              {% for researcher in group.items %}
+              <article class="researcher-card">
+                <div class="headshot{% unless researcher.photo %} headshot-placeholder{% endunless %}">
+                  {% if researcher.photo %}
+                  <img src="{{ researcher.photo | relative_url }}" alt="Portrait of {{ researcher.name }}">
+                  {% else %}
+                  <span aria-hidden="true">{{ researcher.initials }}</span>
+                  <span class="sr-only">Portrait forthcoming for {{ researcher.name }}</span>
+                  {% endif %}
+                </div>
+                <div class="researcher-details">
+                  <p class="researcher-institution">{{ researcher.institution }}</p>
+                  <h3>{% if researcher.profile %}<a href="{{ researcher.profile }}">{{ researcher.name }}</a>{% else %}{{ researcher.name }}{% endif %}</h3>
+                  <p>{{ researcher.bio }}</p>
+                </div>
+              </article>
+              {% endfor %}
             </div>
-            <div class="researcher-details">
-              <p class="researcher-institution">{{ researcher.institution }}</p>
-              <h3>{% if researcher.profile %}<a href="{{ researcher.profile }}">{{ researcher.name }}</a>{% else %}{{ researcher.name }}{% endif %}</h3>
-              <p>{{ researcher.bio }}</p>
-            </div>
-          </article>
+          </section>
           {% endfor %}
         </div>
       </section>

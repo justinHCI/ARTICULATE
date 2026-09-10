@@ -1,3 +1,9 @@
+- name: Ioannis Konstas
+  initials: IK
+  institution: Heriot-Watt University
+  bio: Professor, School of Mathematical and Computer Sciences.
+  photo: https://researchportal.hw.ac.uk/files-asset/147876561/WhatsApp_Image_2025-03-25_at_22.54.05.jpeg
+  profile: https://researchportal.hw.ac.uk/en/persons/yannis-konstas
 - name: Yolanda Vazquez-Alvarez
   initials: YV
   institution: Heriot-Watt University
@@ -10,30 +16,42 @@
   bio: Professor, School of Mathematical and Computer Sciences.
   photo: https://researchportal.hw.ac.uk/files-asset/172115739/fivehundredsqhead.jpg
   profile: https://researchportal.hw.ac.uk/en/persons/matthew-aylett
-- name: Ioannis Konstas
-  initials: IK
-  institution: Heriot-Watt University
-  bio: Professor, School of Mathematical and Computer Sciences.
-  photo: https://researchportal.hw.ac.uk/files-asset/147876561/WhatsApp_Image_2025-03-25_at_22.54.05.jpeg
-  profile: https://researchportal.hw.ac.uk/en/persons/yannis-konstas
 - name: Benjamin R. Cowan
   initials: BC
   institution: University College Dublin
   bio: Professor of Information and Communication Studies.
-  photo: ""
+  photo: https://www.ucd.ie/ics/t4media/ben-cowan.jpeg
   profile: https://people.ucd.ie/benjamin.cowan
+- name: Emily Yip
+  initials: EY
+  institution: University College Dublin
+  bio: Postdoctoral Researcher, University College Dublin.
+  photo: ""
+  profile: ""
 - name: Madeleine Steeds
   initials: MS
   institution: University College Dublin
-  bio: Project researcher, University College Dublin.
-  photo: ""
-  profile: ""
+  bio: Assistant Professor, School of Information and Communication Studies.
+  photo: https://www.ucd.ie/ics/t4media/Madeleine%20Steeds.jpg
+  profile: https://people.ucd.ie/Madeleine.Steeds
 - name: Justin Edwards
   initials: JE
   institution: University of Oulu
   bio: Postdoctoral Researcher, Learning and Educational Technology Research Lab.
   photo: https://media-cdn.oulu.fi/styles/main_image/s3/images/JustinEdwardsProfile.jpg?itok=gODuQUH4
   profile: https://www.oulu.fi/en/researchers/justin-edwards
+- name: Eero Niskanen
+  initials: EN
+  institution: University of Oulu
+  bio: Project Researcher, University of Oulu.
+  photo: ""
+  profile: ""
+- name: Sofia Kochetkova
+  initials: SK
+  institution: University of Oulu
+  bio: Research Assistant, University of Oulu.
+  photo: ""
+  profile: ""
 - name: Sanna Jarvela
   initials: SJ
   institution: University of Oulu
