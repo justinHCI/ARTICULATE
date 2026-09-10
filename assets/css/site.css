@@ -47,14 +47,13 @@ h2 { font-size: clamp(39px, 5vw, 65px); letter-spacing: -.04em; margin-bottom: 0
 .objective-list li { align-items: baseline; border-top: 1px solid var(--line); display: grid; font-family: Fraunces, serif; font-size: clamp(22px, 2.2vw, 30px); gap: 23px; line-height: 1.28; padding: 20px 0 25px; }
 .objective-list span, .partners > article > span { font-family: "DM Mono", monospace; font-size: 11px; }
 .partners { display: grid; gap: 0; grid-template-columns: repeat(3, 1fr); margin-top: 82px; }
-.partners article { border-left: 1px solid #63716a; min-height: 190px; padding: 0 28px; }
+.partners article { border-left: 1px solid #63716a; min-height: 220px; padding: 0 28px; }
 .partners article:first-child { border-left: 0; padding-left: 0; }
 .partners p { color: #c5cec8; font-size: 14px; }
-.partner-logo { align-items: center; display: flex; height: 88px; justify-content: flex-start; margin: 24px 0 12px; width: 190px; }
+.partners h3 { font-size: 22px; margin: 0 0 4px; }
+.partner-logo { align-items: center; display: flex; height: 76px; justify-content: flex-start; margin: 24px 0 10px; width: 190px; }
 .partner-logo img { display: block; height: 64px; object-fit: contain; object-position: left center; width: 160px; }
-.partner-logo-hw { gap: 10px; text-decoration: none; }
-.partner-logo-hw img { border-radius: 50%; height: 64px; object-fit: cover; object-position: left center; width: 64px; }
-.partner-logo-hw b { font-family: Fraunces, serif; font-size: 18px; font-weight: 500; line-height: 1.1; }
+.partner-logo-hw img { height: 64px; object-fit: contain; width: 160px; }
 .team-intro { align-items: end; border-top: 1px solid #63716a; display: flex; justify-content: space-between; margin-top: 92px; padding-top: 26px; }
 .team-intro .section-label { margin: 0; }
 .team-intro > p:last-child { font-family: Fraunces, serif; font-size: 25px; line-height: 1.25; margin: 0; max-width: 540px; }
@@ -106,8 +105,9 @@ footer p { margin: 0; }
   .role { min-height: 215px; }
   .partners, .funder-logos { grid-template-columns: 1fr 1fr; }
   .partners { margin-top: 47px; }
-  .partners article, .partners article:first-child { border-left: 0; border-top: 1px solid #63716a; min-height: 145px; padding: 20px 10px 15px 0; }
-  .partner-logo { height: 70px; margin: 14px 0 8px; }
+  .partners article, .partners article:first-child { border-left: 0; border-top: 1px solid #63716a; min-height: 175px; padding: 20px 10px 15px 0; }
+  .partners h3 { font-size: 18px; }
+  .partner-logo { height: 62px; margin: 14px 0 8px; }
   .partner-logo img { height: 58px; width: 145px; }
   .team-intro { align-items: start; flex-direction: column; gap: 23px; margin-top: 60px; }
   .team-intro > p:last-child { font-size: 22px; }
