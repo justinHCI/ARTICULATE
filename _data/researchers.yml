@@ -28,12 +28,24 @@
   bio: Postdoctoral Researcher, University College Dublin.
   photo: https://d-real.ie/wp-content/uploads/2025/05/Emily-Ip-scaled.jpg
   profile: https://d-real.ie/student/emily-ip/
+ -name: Orla Cooney
+  initials: OC
+  institution: University College Dublin
+  bio: Postdoctoral researcher, School of Information and Communication Studies.
+  photo: https://d-real.ie/wp-content/uploads/2025/05/Orla-Cooney.jpg
+  profile: https://www.linkedin.com/in/orlacooney/
 - name: Madeleine Steeds
   initials: MS
   institution: University College Dublin
   bio: Assistant Professor, School of Information and Communication Studies.
-  photo: https://www.ucd.ie/ics/t4media/Madeleine%20Steeds.jpg
+  photo: assets/images/maddy.jpg
   profile: https://people.ucd.ie/Madeleine.Steeds
+- name: Lukas Hageman
+  initials: LH
+  institution: University College Dublin
+  bio: PhD Researcher, School of Information and Communication Studies.
+  photo: https://humain-accent.eu/wp-content/uploads/2026/04/photoLukas-1-scaled.jpg
+  profile: https://humain-accent.eu/lukas-hageman/ 
 - name: Justin Edwards
   initials: JE
   institution: University of Oulu
